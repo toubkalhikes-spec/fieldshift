@@ -1,0 +1,69 @@
+{
+  "request_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-8.88&latitude=30.47&start=20250101&end=20251231&format=JSON&time-standard=LST",
+  "query": {
+    "parameters": "T2M,T2M_MIN,T2M_MAX,PRECTOTCORR",
+    "community": "AG",
+    "longitude": -8.88,
+    "latitude": 30.47,
+    "start": "20250101",
+    "end": "20251231",
+    "format": "JSON",
+    "time-standard": "LST"
+  },
+  "location": "Taroudant reference point, Souss-Massa, Morocco; not a verified farm",
+  "reference_coordinates_source": "https://www.geonames.org/2529649/taroudant.html",
+  "retrieved_at_utc": "2026-11-15T12:28:42.673954+00:00",
+  "raw_sha256": "f4d54c01793ebea77d9df545e2ed547d1059490d3fca2c183cba4bae02e3a979",
+  "nasa_header": {
+    "title": "NASA/POWER Source Native Resolution Daily Data",
+    "api": {
+      "version": "v2.10.3",
+      "name": "POWER Daily API"
+    },
+    "sources": [
+      "MERRA2",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "LST",
+    "start": "20250101",
+    "end": "20251231"
+  },
+  "nasa_geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.88,
+      30.47,
+      862.31
+    ]
+  },
+  "parameter_metadata": {
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    },
+    "T2M_MIN": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters Minimum"
+    },
+    "T2M_MAX": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters Maximum"
+    },
+    "PRECTOTCORR": {
+      "units": "mm/day",
+      "longname": "Precipitation Corrected"
+    }
+  },
+  "messages": [],
+  "methodology": "https://power.larc.nasa.gov/docs/methodology/data/sources_meteorology/",
+  "resolution_source": "https://power.larc.nasa.gov/docs/tutorials/",
+  "limitations": [
+    "Regional MERRA-2 reanalysis, not a farm weather station or direct satellite-only measurement.",
+    "Meteorological native grid is approximately 0.5 latitude x 0.625 longitude degrees.",
+    "One calendar year is a demonstration sample, not a climate trend or future forecast.",
+    "No soil, irrigation, crop, evapotranspiration or yield measurements included.",
+    "Daily precipitation mm/day values summed over one-day intervals give period totals in mm.",
+    "35 C is an illustrative display threshold, not a validated crop stress threshold."
+  ]
+}

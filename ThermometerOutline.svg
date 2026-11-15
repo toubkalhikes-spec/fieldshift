@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="thermometer outline" clip-path="url(#clip0_48_1975)">
+<path id="Vector" d="M9 15.5V5C9 4.20435 9.31607 3.44129 9.87868 2.87868C10.4413 2.31607 11.2044 2 12 2C12.7956 2 13.5587 2.31607 14.1213 2.87868C14.6839 3.44129 15 4.20435 15 5V15.5C15.8395 16.1296 16.4597 17.0075 16.7726 18.0092C17.0855 19.0108 17.0753 20.0856 16.7434 21.0811C16.4116 22.0767 15.7749 22.9426 14.9236 23.5562C14.0722 24.1698 13.0494 24.5 12 24.5C10.9506 24.5 9.92778 24.1698 9.07645 23.5562C8.22512 22.9426 7.58844 22.0767 7.25658 21.0811C6.92473 20.0856 6.91453 19.0108 7.22743 18.0092C7.54033 17.0075 8.16047 16.1296 9 15.5Z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#087F5B"/>
+<path id="Vector_2" d="M12 8V19" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#087F5B"/>
+<path id="Vector_3" d="M13.5 20C13.5 20.8284 12.8284 21.5 12 21.5C11.1716 21.5 10.5 20.8284 10.5 20C10.5 19.1716 11.1716 18.5 12 18.5C12.8284 18.5 13.5 19.1716 13.5 20Z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#087F5B"/>
+</g>
+<defs>
+<clipPath id="clip0_48_1975">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

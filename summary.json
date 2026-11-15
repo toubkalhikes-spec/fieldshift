@@ -1,0 +1,29 @@
+{
+  "days": 365,
+  "missing_values": 0,
+  "annual_mean_temperature_c": 21.1,
+  "annual_precipitation_mm": 222.96,
+  "hottest_day": {
+    "date": "2025-07-16",
+    "t2m_mean_c": 36.09,
+    "t2m_min_c": 26.63,
+    "t2m_max_c": 44.73,
+    "precipitation_mm_day": 0.0
+  },
+  "coldest_day": {
+    "date": "2025-01-31",
+    "t2m_mean_c": 9.02,
+    "t2m_min_c": 1.54,
+    "t2m_max_c": 19.15,
+    "precipitation_mm_day": 0.0
+  },
+  "wettest_month": {
+    "month": "2025-12",
+    "days": 31,
+    "mean_temperature_c": 10.37,
+    "lowest_daily_min_c": 1.55,
+    "highest_daily_max_c": 23.49,
+    "precipitation_total_mm": 105.4
+  },
+  "days_tmax_at_least_35c": 111
+}

@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sliders outline">
+<path id="Vector" d="M2 7H12M18 7H22M2 17H6M12 17H22" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#087F5B"/>
+<path id="Vector_2" d="M18 7C18 8.65685 16.6569 10 15 10C13.3431 10 12 8.65685 12 7C12 5.34315 13.3431 4 15 4C16.6569 4 18 5.34315 18 7Z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#087F5B"/>
+<path id="Vector_3" d="M12 17C12 18.6569 10.6569 20 9 20C7.34315 20 6 18.6569 6 17C6 15.3431 7.34315 14 9 14C10.6569 14 12 15.3431 12 17Z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#087F5B"/>
+</g>
+</svg>

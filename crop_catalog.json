@@ -1,0 +1,334 @@
+{
+  "schema_version": "0.1",
+  "review_date": "2026-11-15",
+  "status": "research_content_only_not_recommendation_engine",
+  "location": {
+    "lat": 30.47,
+    "lon": -8.88,
+    "label": "Taroudant reference point",
+    "verified_farm": false
+  },
+  "sources": [
+    {
+      "id": "hcp_2025",
+      "url": "https://www.hcp.ma/region-agadir/attachment/2801621/",
+      "title": "HCP Souss Massa regional monograph 2025",
+      "pdf_page_1based": 78,
+      "printed_page": 79,
+      "figure": 48,
+      "data_season": "2022-2023",
+      "scope": "Taroudant province crop presence, not field suitability",
+      "sha256": "d2b445cc99549078211b6147a3a66a84d25fd211eb6aaf013fbd1d668997effd"
+    },
+    {
+      "id": "ocp_inra_chickpea",
+      "url": "https://www.agripedia.ma/sites/default/files/2020-12/guide-culture-pois-chiche.pdf",
+      "title": "Chickpea guide, OCP with INRA-CRRA Settat",
+      "pdf_pages_1based": [
+        2,
+        4,
+        5,
+        11
+      ],
+      "scope": "Moroccan guidance; selected Taroudant field not validated",
+      "sha256": "4dec574d3e37b58d0f28c763a7bcb13ccdb8d6604a452a69c6f6981158bfcff9"
+    }
+  ],
+  "crops": [
+    {
+      "id": "barley",
+      "name_ar": "الشعير",
+      "name_fr": "Orge",
+      "group": "cereal",
+      "candidate_status": "conditional_unvalidated",
+      "province_presence_evidence": "documented_2022_2023",
+      "province_area_ha_2022_2023": 5900,
+      "sources": [
+        "hcp_2025",
+        "ocp_inra_chickpea"
+      ],
+      "field_suitability": null,
+      "variety": null,
+      "sowing_window_local": null,
+      "harvest_window_local": null,
+      "water_requirement_mm": null,
+      "yield_t_ha": null,
+      "nitrogen_credit_kg_ha": null,
+      "profit_mad_ha": null,
+      "return_interval_years": null
+    },
+    {
+      "id": "soft_wheat",
+      "name_ar": "القمح الطري",
+      "name_fr": "Blé tendre",
+      "group": "cereal",
+      "candidate_status": "conditional_unvalidated",
+      "province_presence_evidence": "documented_2022_2023",
+      "province_area_ha_2022_2023": 5495,
+      "sources": [
+        "hcp_2025",
+        "ocp_inra_chickpea"
+      ],
+      "field_suitability": null,
+      "variety": null,
+      "sowing_window_local": null,
+      "harvest_window_local": null,
+      "water_requirement_mm": null,
+      "yield_t_ha": null,
+      "nitrogen_credit_kg_ha": null,
+      "profit_mad_ha": null,
+      "return_interval_years": null
+    },
+    {
+      "id": "chickpea",
+      "name_ar": "الحمص",
+      "name_fr": "Pois chiche",
+      "group": "legume",
+      "candidate_status": "conditional_unvalidated",
+      "province_presence_evidence": "not_verified_in_this_review",
+      "province_area_ha_2022_2023": null,
+      "sources": [
+        "ocp_inra_chickpea"
+      ],
+      "field_suitability": null,
+      "variety": null,
+      "sowing_window_local": null,
+      "harvest_window_local": null,
+      "water_requirement_mm": null,
+      "yield_t_ha": null,
+      "nitrogen_credit_kg_ha": null,
+      "profit_mad_ha": null,
+      "return_interval_years": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "A",
+      "label_ar": "مرجع افتراضي",
+      "kind": "hypothetical_baseline_not_observed",
+      "seasons": [
+        {
+          "season_index": 1,
+          "crop_id": "soft_wheat"
+        },
+        {
+          "season_index": 2,
+          "crop_id": "soft_wheat"
+        },
+        {
+          "season_index": 3,
+          "crop_id": "soft_wheat"
+        }
+      ],
+      "authoring": "project-designed illustration; exact three-season sequence not endorsed by source",
+      "repeat_automatically": false,
+      "closed_rotation_validated": false,
+      "agronomic_validation": "pending",
+      "suitability_score": null,
+      "water_saving_pct": null,
+      "profit_mad_ha": null,
+      "sources": []
+    },
+    {
+      "id": "B",
+      "label_ar": "إدخال الحمص مع القمح",
+      "kind": "illustrative_candidate",
+      "seasons": [
+        {
+          "season_index": 1,
+          "crop_id": "soft_wheat"
+        },
+        {
+          "season_index": 2,
+          "crop_id": "chickpea"
+        },
+        {
+          "season_index": 3,
+          "crop_id": "soft_wheat"
+        }
+      ],
+      "authoring": "project-designed illustration; exact three-season sequence not endorsed by source",
+      "repeat_automatically": false,
+      "closed_rotation_validated": false,
+      "agronomic_validation": "pending",
+      "suitability_score": null,
+      "water_saving_pct": null,
+      "profit_mad_ha": null,
+      "sources": [
+        "ocp_inra_chickpea"
+      ]
+    },
+    {
+      "id": "C",
+      "label_ar": "إدخال الحمص مع الشعير",
+      "kind": "illustrative_candidate",
+      "seasons": [
+        {
+          "season_index": 1,
+          "crop_id": "barley"
+        },
+        {
+          "season_index": 2,
+          "crop_id": "chickpea"
+        },
+        {
+          "season_index": 3,
+          "crop_id": "barley"
+        }
+      ],
+      "authoring": "project-designed illustration; exact three-season sequence not endorsed by source",
+      "repeat_automatically": false,
+      "closed_rotation_validated": false,
+      "agronomic_validation": "pending",
+      "suitability_score": null,
+      "water_saving_pct": null,
+      "profit_mad_ha": null,
+      "sources": [
+        "ocp_inra_chickpea"
+      ]
+    }
+  ],
+  "farm_inputs": {
+    "current_rotation": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "crop_history": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "soil_texture": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "soil_depth_cm": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "drainage": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "soil_ph": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "soil_salinity": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "organic_matter_pct": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "irrigation_type": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "available_water_m3": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "field_area_ha": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "variety": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "disease_history": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "residue_management": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "livestock": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "equipment": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "seed_access": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "local_crop_prices": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "production_costs": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    },
+    "farmer_priorities": {
+      "value": null,
+      "status": "unknown",
+      "label_ar": "غير معروف"
+    }
+  },
+  "prototype_objectives": [
+    "water",
+    "soil_health"
+  ],
+  "objectives_confirmed_by_farmer": false,
+  "display_policy": {
+    "unknown_label_ar": "غير معروف",
+    "unknown_is_zero": false,
+    "rank_when_critical_inputs_missing": false,
+    "label_scenarios_as_observed": false
+  },
+  "proposed_rules_not_implemented": [
+    {
+      "id": "missing_inputs",
+      "condition": "critical soil, water or crop history inputs unknown",
+      "result": "qualitative_comparison_only"
+    },
+    {
+      "id": "poor_drainage",
+      "condition": "drainage confirmed poor",
+      "result": "hold chickpea scenarios for agronomic review",
+      "sources": [
+        "ocp_inra_chickpea"
+      ]
+    },
+    {
+      "id": "repeat",
+      "condition": "return interval or crop history unvalidated",
+      "result": "disable automatic repetition"
+    }
+  ],
+  "climate_context": {
+    "file": "../nasa-power-taroudant-2025/daily_2025.csv",
+    "year": 2025,
+    "crop_ranking_computed": false,
+    "limits": [
+      "Regional reanalysis, not field measurements",
+      "Calendar year does not necessarily cover an agricultural season",
+      "Annual rainfall alone does not establish crop suitability"
+    ]
+  }
+}
